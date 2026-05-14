@@ -1,0 +1,56 @@
+
+/* Menu */
+.homepage {
+    background-image: url(images/Rimac_rivera_r.png);
+    /* Make sure the image covers the whole area */
+        background-size: cover;
+
+        /* Center the image */
+        background-position: center;
+
+        /* Prevent the image from repeating */
+        background-repeat: no-repeat;
+        /* Remove default margins */
+        margin: 0;
+        height: 100%;
+    }
+
+.menu {
+    background-color: #333;
+    position: fixed;       /* Stays at the top when scrolling */
+    top: 0;
+    left: 0;
+    width: 100%;           /* Full width */
+    overflow: hidden;
+    z-index: 1000;         /* Keeps it above other content */
+    }
+
+menu {
+    background-color: rgb(127, 3, 3);
+    padding: 10px;
+}
+
+menu a{
+    color: rgb(31, 29, 29);
+    margin-right: 10px;
+    text-decoration: solid;
+}   
+
+
+.mybutton1 {
+    background-color: #000000; /* Green background */
+    color: white;              /* White text */
+    padding: 12px 24px;         /* Space inside button */
+    border: none;               /* Remove border */
+    border-radius: 6px;         /* Rounded corners */
+    cursor: pointer;            /* Pointer on hover */
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+.mybutton1:hover {
+    background-color: #650909; 
+    color:black
+}
+
