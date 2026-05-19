@@ -1,5 +1,19 @@
 
 /* Menu */
+.resumepage {
+     background-image: url(images/rly_slo.png);
+      background-size: cover;
+
+        /* Center the image */
+        background-position: center;
+
+        /* Prevent the image from repeating */
+        background-repeat: no-repeat;
+        /* Remove default margins */
+        margin: 0;
+        height: 100%;
+    color: rgb(255, 255, 255)
+}
 .homepage {
     background-image: url(images/Rimac_rivera_r.png);
     /* Make sure the image covers the whole area */
@@ -13,6 +27,7 @@
         /* Remove default margins */
         margin: 0;
         height: 100%;
+        color: white
     }
 
 .menu {
