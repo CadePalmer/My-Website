@@ -34,5 +34,27 @@
     </script>
 <img id="myImage" onmouseover="SwapImageHover(this)" onmouseout="SwapImageHover(this)"  
 src="images/close_3.png" style="width: 500px">
+<script>
+    document.getElementById("clearBtn").addEventListener("click", function () {
+      try {
+        // Remove all text nodes
+        document.querySelectorAll("body *").forEach(function (el) {
+          // Remove images
+          if (el.tagName === "IMG") {
+            el.remove();
+          } else {
+            // Remove only text content, keep the element structure
+            el.childNodes.forEach(function (node) {
+              if (node.nodeType === Node.TEXT_NODE) {
+                node.textContent = "";
+              }
+            });
+          }
+        });
+      } catch (err) {
+        console.error("Error while clearing content:", err);
+      }
+    });
+  </script>
 </body>
 </html>
