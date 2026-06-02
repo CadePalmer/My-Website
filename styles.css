@@ -1,7 +1,7 @@
 
 /* Menu */
 .resumepage {
-     background-image: url(images/rly_slo.png);
+     background-image: url(images/Mexico_pic.JPG);
       background-size: cover;
 
         /* Center the image */
@@ -69,7 +69,6 @@ menu a{
     color:black
 }
 .left-list{
-   background-image: url(images/Mexico_pic.JPG);
     margin-top: 20px;
     text-align: left;}
     
