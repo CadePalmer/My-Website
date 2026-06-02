@@ -69,9 +69,9 @@ menu a{
     color:black
 }
 .left-list{
-    margin-top: 150px;
+    margin-top: 100px;
   background: rgba(0,0,0,0.4);
-  backdrop-filter: blur(25px);
+  backdrop-filter: blur(10px);
     text-align: left;}
     
 
