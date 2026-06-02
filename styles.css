@@ -73,7 +73,7 @@ menu a{
         top: 0;                /* Start from top */
         right: 0;              /* Align to right edge */
         height: 100%;          /* Full height of viewport */
-        background-color: #f4f4f4;
+        background-color: #000000;
         padding: 20px;
         box-shadow: -2px 0 5px rgba(0,0,0,0.1);
     }
