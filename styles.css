@@ -68,19 +68,11 @@ menu a{
     background-color: #650909; 
     color:black
 }
-.hero::before {
+.left-list{
     margin-top: 20px;
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* semi-transparent black */
-    z-index: 1;
-  }
+  background: rgba(0,0,0,0.4);
+  backdrop-filter: blur(5px);margin-top: 80px;
+    text-align: left;}
+    
 
-  /* Text styling */
-  .hero h1 {
-    position: relative;
-    z-index: 2; /* above overlay */
-    font-size: 3rem;
-    text-shadow: 2px 2px 8px rgba(0,0,0,0.8); /* shadow for readability */
-    padding: 0 20px;}
+
